@@ -35,7 +35,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className={`fixed z-50 top-0 left-0 w-screen h-screen bg-[#ECECEC] transition-transform flex-col duration-300 transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-[107%]'} lg:hidden`}>
+            <div className={`fixed z-50 top-0 left-0 w-screen h-screen bg-[#ECECEC] transition-transform flex-col duration-300 transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-[110%]'} lg:hidden`}>
                 <button className='absolute top-2 right-6 text-black text-4xl' onClick={toggleMenu}>&times;</button>
                 <div className='flex flex-col items-center justify-center h-full space-y-10 font-["Philosopher"] list-none text-xl'>
                     <li>HOME</li>
