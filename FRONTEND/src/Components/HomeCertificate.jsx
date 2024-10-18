@@ -5,12 +5,12 @@ import c3 from "../assets/c3.jpg"
 const HomeCertificate = () => {
     return (
         <>
-            <div className="flex flex-col mt-[125px] gap-12 xl:gap-20 w-screen px-5 items-center bg-gradient-to-b from-[#ECECEC] via-[#B099E4]/50 to-[#ECECEC]">
-                <h1 className="text-[32px] text-[#131313] font-['otomanopee-one'] text-center md:text-[44px] xl:text-[56px]">OUR CERTIDICATES AND AWARDS</h1>
+            <div className="w-screen flex flex-col mt-[125px] gap-12 xl:gap-20 px-5 items-center bg-gradient-to-b from-[#ECECEC] via-[#B099E4]/50 to-[#ECECEC]">
+                <h1 className="text-[32px] text-[#131313] font-['otomanopee-one'] text-center md:text-[44px] xl:text-[56px]">OUR CERTIFICATES AND AWARDS</h1>
                 <div className="flex flex-col gap-10 lg:flex-row lg:gap-8 xl:gap-14">
                     <div className="w-full mx-auto flex flex-row items-center justify-center gap-4 flex-wrap md:gap-8">
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[600px]" style={{ backgroundImage: `url(${c1})` }}></div>
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[600px]" style={{ backgroundImage: `url(${c2})` }}></div>
+                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c1})` }}></div>
+                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c2})` }}></div>
                     </div>
 
                     <div className="px-5 flex flex-col items-center justify-center">
@@ -40,8 +40,8 @@ const HomeCertificate = () => {
                     </div>
 
                     <div className="w-full mx-auto flex flex-row items-center justify-center gap-4 flex-wrap md:gap-8">
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[600px]" style={{ backgroundImage: `url(${c2})` }}></div>
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[600px]" style={{ backgroundImage: `url(${c3})` }}></div>
+                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c2})` }}></div>
+                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c3})` }}></div>
                     </div>
                 </div>
             </div>

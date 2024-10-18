@@ -4,6 +4,9 @@ import Navbar from '../Components/Navbar'
 import HomeServices from "../Components/HomeServices"
 import HomeAbout from "../Components/HomeAbout"
 import HomeCertificate from "../Components/HomeCertificate"
+import CustomerReview from "../Components/CustomerReview"
+import TrustedClients from "../Components/TrustedClients"
+import Footer from "../Components/Footer"
 const Home=()=>{
     return(
         <>
@@ -13,6 +16,9 @@ const Home=()=>{
                 <HomeAbout/>
                 <HomeServices/>
                 <HomeCertificate/>
+                <CustomerReview/>
+                <TrustedClients/>
+                <Footer/>
             </body>
         </>
     )
