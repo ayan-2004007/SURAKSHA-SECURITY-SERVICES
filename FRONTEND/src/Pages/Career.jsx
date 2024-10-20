@@ -8,7 +8,6 @@ const Contact = () => {
         <>
             <body className='bg-[#ECECEC]'>
                 <Navbar />
-                <ContactBanner />
                 <Footer />
             </body>
         </>
