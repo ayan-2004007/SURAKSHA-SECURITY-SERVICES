@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import AboutBanner from "../Components/AboutBanner"
 import AboutIntro from '../Components/AboutIntro'
 import AboutMission from "../Components/AboutMission"
 import TeamMember from "../Components/TeamMember"
@@ -10,6 +11,7 @@ const About = () => {
         <>
             <body className='bg-[#ECECEC]'>
                 <Navbar />
+                <AboutBanner/>
                 <AboutIntro/>
                 <AboutMission/>
                 <TeamMember/>
