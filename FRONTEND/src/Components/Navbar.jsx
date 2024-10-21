@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div className='flex flex-col items-center justify-center h-full space-y-10 font-["Philosopher"] list-none text-xl'>
                     <li onClick={() => navigate('/')}>HOME</li>
                     <li onClick={() => navigate('/about')}>ABOUT</li>
-                    <li>SERVICS</li>
+                    <li onClick={() => navigate('/services')}>SERVICES</li>
                     <li onClick={() => navigate('/career')}>CAREERS</li>
                     <li onClick={() => navigate('/contact')}>CONTACT</li>
                     <button className='text-white bg-gradient-to-r from-[#3E187A] to-[#994ECC] p-2 rounded-md'>BROCHURE</button>
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <ul className='flex font-["Philosopher"] text-[15px] font-extrabold space-x-5 xl:space-x-10 items-center cursor-pointer'>
                                 <li onClick={() => navigate('/')}>HOME</li>
                                 <li onClick={() => navigate('/about')}>ABOUT</li>
-                                <li>SERVICS</li>
+                                <li onClick={() => navigate('/services')}>SERVICES</li>
                                 <li onClick={() => navigate('/career')}>CAREERS</li>
                                 <li onClick={() => navigate('/contact')}>CONTACT</li>
                                 <button className='text-white bg-gradient-to-r from-[#3E187A] to-[#994ECC] p-2 rounded-md'>BROCHURE</button>

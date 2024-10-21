@@ -5,7 +5,7 @@ import c3 from "../assets/c3.jpg"
 const HomeCertificate = () => {
     return (
         <>
-            <div className="w-screen flex flex-col mt-[125px] gap-12 xl:gap-20 px-5 items-center bg-gradient-to-b from-[#ECECEC] via-[#B099E4]/50 to-[#ECECEC]">
+            <div className="w-full flex flex-col mt-[125px] gap-12 xl:gap-20 px-5 items-center bg-gradient-to-b from-[#ECECEC] via-[#B099E4]/50 to-[#ECECEC]">
                 <h1 className="text-[32px] text-[#131313] font-['otomanopee-one'] text-center md:text-[44px] xl:text-[56px]">OUR CERTIFICATES AND AWARDS</h1>
                 <div className="flex flex-col gap-10 lg:flex-row lg:gap-8 xl:gap-14">
                     <div className="w-full mx-auto flex flex-row items-center justify-center gap-4 flex-wrap md:gap-8">
