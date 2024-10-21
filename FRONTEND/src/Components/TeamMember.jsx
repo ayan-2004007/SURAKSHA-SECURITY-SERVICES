@@ -14,7 +14,7 @@ const TeamMember = () => {
                 <h1 className="text-center text-[32px] font-['otomanopee-one'] text-[#131313] xl:text-[44px] 2xl:text-[56px]">MEET OUT TEAM MEMBERS</h1>
 
                 {/* FOR MOBILE, TABLET AND SMALL LAPTOPS */}
-                <div className="flex flex-col w-full gap-12 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-0 xl:hidden">
+                <div className="flex flex-col w-full gap-12 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-y-16 lg:gap-0 xl:hidden">
 
                     {/* FISRT MEMBER */}
                     <div className="flex flex-col gap-4">

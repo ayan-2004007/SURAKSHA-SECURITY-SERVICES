@@ -29,15 +29,15 @@ const AboutBanner=()=>{
     }, []);
 
     return (
-        <div className="lg:flex lg:flex-row-reverse md:flex-col mb-44 md:mb-[280px] lg:-mb-[120px] 2xl:-mb-[280px]">
+        <div className="lg:flex lg:flex-row-reverse md:flex-col mb-44 md:mb-[280px] lg:-mb-[120px] 2xl:-mb-[320px]">
 
 
-            <div className="2xl:h-[1150px] relative overflow-hidden ml-auto xl:h-[800px] lg:h-[700px] lg:w-full md:h-[600px] md:w-[750px] md:mx-auto h-[350px] w-[350px] mx-auto">
+            <div className="2xl:h-[1000px] relative overflow-hidden ml-auto xl:h-[800px] lg:h-[700px] lg:w-full md:h-[600px] md:w-[750px] md:mx-auto h-[350px] w-[350px] mx-auto">
                 <div className="absolute 2xl:bottom-[350px] 2xl:-right-72 xl:bottom-[180px] xl:-right-56 lg:bottom-[150px] lg:-right-44 md:bottom-[120px] md:right-0 right-0 bottom-[80px]">
                     <div className="relative">
                         <img
                             src={bg}
-                            className="2xl:h-[1150px] 2xl:w-[1150px] object-cover xl:h-[800px] xl:w-[800px] lg:h-[700px] lg:w-[700px] md:h-[600px] md:w-[750px] [350px] w-[350px]"
+                            className="2xl:h-[1000px] 2xl:w-[1150px] object-cover xl:h-[800px] xl:w-[800px] lg:h-[700px] lg:w-[700px] md:h-[600px] md:w-[750px] [350px] w-[350px]"
                             alt=""
                             style={{
                                 transform: `rotate(${rotation}deg)`,
