@@ -12,7 +12,7 @@ const AboutBanner=()=>{
 
     useEffect(()=>{
         const rotateImage=()=>{
-            setRotation((prevRotation)=>prevRotation +120)
+            setRotation((prevRotation)=>prevRotation -120)
         };
         const rotationInterval=setInterval(rotateImage,3000)
         const imageInterval= setInterval(() => {
@@ -41,7 +41,7 @@ const AboutBanner=()=>{
                             alt=""
                             style={{
                                 transform: `rotate(${rotation}deg)`,
-                                transition: 'transform 1s ease-in-out',
+                                transition: 'transform 1s cubic-bezier(0.25, 0.1, 0.25, 1)',
                             }}
                         />
                         <img
