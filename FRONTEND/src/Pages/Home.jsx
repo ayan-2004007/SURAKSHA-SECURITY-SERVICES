@@ -10,7 +10,7 @@ import Footer from "../Components/Footer"
 const Home=()=>{
     return(
         <>
-            <body className="bg-[#ECECEC]">
+            <body className="bg-[#ECECEC] overflow-hidden">
                 <Navbar/>
                 <HomeBanner />
                 <HomeAbout/>
