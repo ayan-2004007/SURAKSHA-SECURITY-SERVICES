@@ -40,12 +40,12 @@ const Navbar = () => {
             <div className={`fixed z-50 top-0 left-0 w-screen h-screen bg-[#ECECEC] transition-transform flex-col duration-300 transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-[110%]'} lg:hidden`}>
                 <button className='absolute top-2 right-6 text-black text-4xl' onClick={toggleMenu}>&times;</button>
                 <div className='flex flex-col items-center justify-center h-full space-y-10 font-["Philosopher"] list-none text-xl'>
-                    <li onClick={() => navigate('/')}>HOME</li>
-                    <li onClick={() => navigate('/about')}>ABOUT</li>
-                    <li onClick={() => navigate('/services')}>SERVICES</li>
-                    <li onClick={() => navigate('/career')}>CAREERS</li>
-                    <li onClick={() => navigate('/contact')}>CONTACT</li>
-                    <button className='text-white bg-gradient-to-r from-[#3E187A] to-[#994ECC] p-2 rounded-md'>BROCHURE</button>
+                    <li className='relative group' onClick={() => navigate('/')}>HOME</li>
+                    <li className='relative group' onClick={() => navigate('/about')}>ABOUT</li>
+                    <li className='relative group' onClick={() => navigate('/services')}>SERVICES</li>
+                    <li className='relative group' onClick={() => navigate('/career')}>CAREERS</li>
+                    <li className='relative group' onClick={() => navigate('/contact')}>CONTACT</li>
+                    <button className='bg-gradient-to-r from-[#AD1DEB] to-[#6E72FC] text-white transition-transform transform hover:scale-110 duration-150 ease-in p-2 rounded-md'>BROCHURE</button>
                 </div>
             </div>
 
@@ -62,15 +62,16 @@ const Navbar = () => {
                     <div className='items flex items-center gap-72'>
                         <div className='flex'>
                             <ul className='flex font-["Philosopher"] text-[15px] font-extrabold space-x-5 xl:space-x-10 items-center cursor-pointer'>
-                                <li onClick={() => navigate('/')}>HOME</li>
-                                <li onClick={() => navigate('/about')}>ABOUT</li>
-                                <li onClick={() => navigate('/services')}>SERVICES</li>
-                                <li onClick={() => navigate('/career')}>CAREERS</li>
-                                <li onClick={() => navigate('/contact')}>CONTACT</li>
-                                <button className='text-white bg-gradient-to-r from-[#3E187A] to-[#994ECC] p-2 rounded-md'>BROCHURE</button>
+                                <li className='relative group' onClick={() => navigate('/')}>HOME</li>
+                                <li className='relative group' onClick={() => navigate('/about')}>ABOUT</li>
+                                <li className='relative group' onClick={() => navigate('/services')}>SERVICES</li>
+                                <li className='relative group' onClick={() => navigate('/career')}>CAREERS</li>
+                                <li className='relative group' onClick={() => navigate('/contact')}>CONTACT</li>
+                                <button className='bg-gradient-to-r from-[#AD1DEB] to-[#6E72FC] text-white p-2 rounded-md transition-all transform hover:scale-110 duration-150 ease-in'>BROCHURE</button>
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </div>
         </>

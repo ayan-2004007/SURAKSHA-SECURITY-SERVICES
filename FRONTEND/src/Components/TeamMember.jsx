@@ -27,9 +27,9 @@ const TeamMember = () => {
                             <p className="text-[18px] text-['Philosopher']">Position of the member</p>
                             <p className="text-sm font-['Philosopher'] text-center max-w-[350px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                             <div className="flex gap-4 flex-wrap">
-                                <img src={fb} alt="" className="h-10 w-10" />
-                                <img src={insta} alt="" className="h-10 w-10" />
-                                <img src={linkedin} alt="" className="h-10 w-10" />
+                                <img src={fb} alt="" className="h-10 w-10  transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={insta} alt="" className="h-10 w-10  transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                             </div>
                         </div>
                     </div>
@@ -45,9 +45,9 @@ const TeamMember = () => {
                             <p className="text-[18px] text-['Philosopher']">Position of the member</p>
                             <p className="text-sm font-['Philosopher'] text-center max-w-[350px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                             <div className="flex gap-4 flex-wrap">
-                                <img src={fb} alt="" className="h-10 w-10" />
-                                <img src={insta} alt="" className="h-10 w-10" />
-                                <img src={linkedin} alt="" className="h-10 w-10" />
+                                <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={linkedin} alt="" className="h-10 w- transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                             </div>
                         </div>
                     </div>
@@ -63,9 +63,9 @@ const TeamMember = () => {
                             <p className="text-[18px] text-['Philosopher']">Position of the member</p>
                             <p className="text-sm font-['Philosopher'] text-center max-w-[350px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                             <div className="flex gap-4 flex-wrap">
-                                <img src={fb} alt="" className="h-10 w-10" />
-                                <img src={insta} alt="" className="h-10 w-10" />
-                                <img src={linkedin} alt="" className="h-10 w-10" />
+                                <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                             </div>
                         </div>
                     </div>
@@ -81,9 +81,9 @@ const TeamMember = () => {
                             <p className="text-[18px] text-['Philosopher']">Position of the member</p>
                             <p className="text-sm font-['Philosopher'] text-center max-w-[350px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                             <div className="flex gap-4 flex-wrap">
-                                <img src={fb} alt="" className="h-10 w-10" />
-                                <img src={insta} alt="" className="h-10 w-10" />
-                                <img src={linkedin} alt="" className="h-10 w-10" />
+                                <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                             </div>
                         </div>
                     </div>
@@ -101,9 +101,9 @@ const TeamMember = () => {
                                     <h1 className="text-[22px] text-[#131313] font-['otomanopee-one']">TEAM MEMBER NAME</h1>
                                     <p className="text-center max-w-[320px] text-sm font-['Philosopher']">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                                     <div className="flex gap-4 flex-wrap">
-                                        <img src={fb} alt="" className="h-10 w-10" />
-                                        <img src={insta} alt="" className="h-10 w-10" />
-                                        <img src={linkedin} alt="" className="h-10 w-10" />
+                                        <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" /> 
                                     </div>
                                 </div>
                             </div>
@@ -114,9 +114,9 @@ const TeamMember = () => {
                                     <h1 className="text-[22px] text-[#131313] font-['otomanopee-one']">TEAM MEMBER NAME</h1>
                                     <p className="text-center max-w-[320px] text-sm font-['Philosopher']">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                                     <div className="flex gap-4 flex-wrap">
-                                        <img src={fb} alt="" className="h-10 w-10" />
-                                        <img src={insta} alt="" className="h-10 w-10" />
-                                        <img src={linkedin} alt="" className="h-10 w-10" />
+                                        <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                                     </div>
                                 </div>
                             </div>
@@ -127,9 +127,9 @@ const TeamMember = () => {
                                     <h1 className="text-[22px] text-[#131313] font-['otomanopee-one']">TEAM MEMBER NAME</h1>
                                     <p className="text-center max-w-[320px] text-sm font-['Philosopher']">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                                     <div className="flex gap-4 flex-wrap">
-                                        <img src={fb} alt="" className="h-10 w-10" />
-                                        <img src={insta} alt="" className="h-10 w-10" />
-                                        <img src={linkedin} alt="" className="h-10 w-10" />
+                                        <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                                     </div>
                                 </div>
                             </div>
@@ -140,9 +140,9 @@ const TeamMember = () => {
                                     <h1 className="text-[22px] text-[#131313] font-['otomanopee-one']">TEAM MEMBER NAME</h1>
                                     <p className="text-center max-w-[320px] text-sm font-['Philosopher']">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
                                     <div className="flex gap-4 flex-wrap">
-                                        <img src={fb} alt="" className="h-10 w-10" />
-                                        <img src={insta} alt="" className="h-10 w-10" />
-                                        <img src={linkedin} alt="" className="h-10 w-10" />
+                                        <img src={fb} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={insta} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
+                                        <img src={linkedin} alt="" className="h-10 w-10 transition duration-100 ease-in filter hover:brightness-0 cursor-pointer" />
                                     </div>
                                 </div>
                             </div>

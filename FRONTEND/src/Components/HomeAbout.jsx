@@ -62,8 +62,8 @@ const HomeAbout = () => {
                         </div>
                         <p className='font-["Philosopher"] text-[#131313] leading-[15px] xl:leading-5 text-sm xl:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
                         <div className='flex flex-row gap-3 md:gap-5 pt-5 lg:pt-0'>
-                            <button className='font-["Montserrat"] font-bold bg-[#CC2B5E] rounded-[5px] text-white xl:text-base lg:text-sm text-xs xl:px-6 xl:py-4 lg:px-5 py-3 px-3'>CONTACT US TODAY </button>
-                            <button className='font-["Montserrat"] font-bold border-2 border-[#6100AB] xl:text-base lg:text-sm text-xs xl:px-6 xl:py-4 lg:px-5 py-3 px-3'>JOIN US NOW</button>
+                            <button className='font-["Montserrat"] font-bold bg-[#CC2B5E] rounded-[5px] text-white xl:text-base lg:text-sm text-xs xl:px-6 xl:py-4 lg:px-5 py-3 px-3 transition-transform transform hover:scale-110 duration-150 ease-in'>CONTACT US TODAY </button>
+                            <button className='font-["Montserrat"] font-bold border-2 border-[#6100AB] xl:text-base lg:text-sm text-xs xl:px-6 xl:py-4 lg:px-5 py-3 px-3 transition-all duration-150 ease-in hover:bg-[#131313] hover:text-white'>JOIN US NOW</button>
                         </div>
                     </div>
                 </div>

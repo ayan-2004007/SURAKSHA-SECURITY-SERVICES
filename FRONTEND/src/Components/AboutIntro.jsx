@@ -12,7 +12,7 @@ const AboutIntro = () => {
                     <div className="flex flex-col gap-5 px-5 md:items-center lg:items-start xl:gap-7">
                         <h1 className="text-[32px] font-['otomanopee-one'] text-white xl:text-[44px] 2xl:text-[56px]">WHO WE ARE</h1>
                         <p className="text-[#939393] font-['Philosopher'] text-[15px] max-w-[660px] md:text-center lg:text-left xl:text-[16px] 2xl:text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-                        <button className="h-12 w-36 bg-gradient-to-r from-[#753A88] to-[#CC2B5E] text-white font-['Montserrat'] text-xs font-bold rounded-[5px] xl:w-[170px] xl:h-[55px] xl:text-base">CONTACT US</button>
+                        <button className="h-12 w-36 bg-gradient-to-r from-[#753A88] to-[#CC2B5E] text-white font-['Montserrat'] text-xs font-bold rounded-[5px] xl:w-[170px] xl:h-[55px] xl:text-base transition-transform transform hover:scale-110 duration-150 ease-in">CONTACT US</button>
                     </div>
                 </div>
 

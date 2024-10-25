@@ -5,3 +5,20 @@
 .custom-gradient{
     background:linear-gradient(to top,#ECECEC,rgba(168,139,235,0.5) 50%,rgba(248,206,236,0.7) 70%,#ECECEC);
 }
+ul li{
+    position: relative;
+}
+ul li::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #AD1DEB;
+    transition: width 0.3s ease;
+}
+
+ul li:hover::after{
+    width: 100%;
+}
