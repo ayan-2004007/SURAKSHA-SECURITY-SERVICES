@@ -5,10 +5,10 @@
 .custom-gradient{
     background:linear-gradient(to top,#ECECEC,rgba(168,139,235,0.5) 50%,rgba(248,206,236,0.7) 70%,#ECECEC);
 }
-ul li{
+.nav-ul li{
     position: relative;
 }
-ul li::after{
+.nav-ul li::after{
     content: "";
     position: absolute;
     left:0;
@@ -19,6 +19,6 @@ ul li::after{
     transition: width 0.3s ease;
 }
 
-ul li:hover::after{
+.nav-ul li:hover::after{
     width: 100%;
 }

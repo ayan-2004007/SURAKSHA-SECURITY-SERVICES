@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,use} from 'react'
 import Surveillance from "../assets/24-hours.png";
 import Reliable_Protection from "../assets/shield.png";
 import Traine_Guards from "../assets/security-guard.png";
@@ -11,6 +11,7 @@ import home_about from "../assets/home_about.png";
 const HomeAbout = () => {
     return (
         <>
+        
             {/* Testimonials */}
             <div className=' w-full h-full lg:bg-gradient-to-t from-[rgba(168,139,235,0.5)] via-[#ECECEC] to-[#ECECEC]'>
                 <div className='grid grid-cols-2 md:grid-cols-3 px-5 xl:px-1 lg:flex justify-center mx-auto gap-5 xl:gap-9 mt-24 lg:mt-32 text-white max-w-[400px] md:max-w-[600px] lg:max-w-[1150px] xl:max-w-[1270px] 2xl:max-w-[1365px] '>
