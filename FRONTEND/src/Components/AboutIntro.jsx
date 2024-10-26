@@ -1,10 +1,18 @@
-import React from "react"
+import React,{useEffect} from "react"
+import aos from "aos"
+import "aos/dist/aos.css"
 import introImage from "../assets/aboutus_about.png"
 const AboutIntro = () => {
+    useEffect(() => {
+        aos.init({
+            once: "true",
+        })
+    }, [])
+    
     return (
         <>
             <div className="w-full bg-[#131313] mt-[142px]">
-                <div className="mx-auto max-w-[1773px] flex flex-col pb-10 items-center md:pb-12 lg:flex-row-reverse lg:py-10">
+                <div className="mx-auto max-w-[1773px] flex flex-col pb-10 items-center md:pb-12 lg:flex-row-reverse lg:py-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-sine" data-aos-duration="500">
                     <div className="relative bottom-20 md:bottom-24 lg:min-h-[338px] lg:bottom-28 object-cover">
                         <img src={introImage} alt="" className="lg:min-h-[338px] xl:h-[460px] xl:w-[813px] 2xl:h-[660px] 2xl:w-[1113px] relative z-10" />
                         <div className="absolute bottom-0 left-0 right-0 h-[50px] md:h-[100px] xl:h-[200px] bg-gradient-to-b from-transparent to-[#131313] z-20"></div>

@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import aos from 'aos'
+import "aos/dist/aos.css"
 import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
 import banner3 from "../assets/banner3.png";
 
 const HomeBanner = () => {
+    useEffect(() => {
+        aos.init({
+            once: "true",
+        })
+    }, [])
     const banners = [
         {
             img: banner1,
@@ -46,7 +53,7 @@ const HomeBanner = () => {
     const { img, title, subtitle, description, button1, button2 } = banners[currentBannerIndex];
 
     return (
-        <div className='w-screen h-auto flex flex-col px-5 py-1 items-center pb-0 mx-auto gap-5 sm:gap-10 md:gap-12 lg:flex-row-reverse lg:gap-10 lg:pt-16 lg:max-w-[1138px] xl:pl-8 xl:max-w-[1338px] 2xl:max-w-[1518px] 2xl:gap-6 2xl:pt-8 2xl:pl-10 2xl:pr-0'>
+        <div className='w-screen h-auto flex flex-col px-5 py-1 items-center pb-0 mx-auto gap-5 sm:gap-10 md:gap-12 lg:flex-row-reverse lg:gap-10 lg:pt-16 lg:max-w-[1138px] xl:pl-8 xl:max-w-[1338px] 2xl:max-w-[1518px] 2xl:gap-6 2xl:pt-8 2xl:pl-10 2xl:pr-0' data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine" data-aos-duration="600">
             <img
                 src={img}
                 alt=""

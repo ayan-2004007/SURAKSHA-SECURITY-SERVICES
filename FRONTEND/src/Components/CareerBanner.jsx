@@ -1,14 +1,21 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import aos from 'aos'
+import "aos/dist/aos.css"
 import about1 from "../assets/about1.png";
 import about2 from "../assets/about2.png";
 import about3 from "../assets/about3.png";
 
 
 const CareerBanner = () => {
+    useEffect(() => {
+        aos.init({
+            once: "true",
+        })
+    }, [])
     return (
         <>
-            <h1 className='font-["otomanopee-one"] text-[26px] md:text-[38px] xl:text-[50px] text-center py-5 md:pt-2 md:pb-0'>WHERE PROTECTION MEETS PRECISION</h1>
-            <div className='md:flex justify-between space-y-16 md:space-y-0 max-w-fit md:max-w-none xl:max-w-[1400px] mx-auto py-2 px-5 pb-20'>
+            <h1 className='mb-10 font-["otomanopee-one"] text-[26px] md:text-[38px] xl:text-[50px] text-center py-5 md:pt-2 md:pb-0'>WHERE PROTECTION MEETS PRECISION</h1>
+            <div className='md:flex justify-between space-y-16 md:space-y-0 max-w-fit md:max-w-none xl:max-w-[1400px] mx-auto py-2 px-5 pb-20' data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <div className='max-w-[450px] md:max-w-[220px] lg:max-w-[300px] xl:max-w-[360px] space-y-4'>
                     <img src={about1} alt="" />
                     <div className='text-center space-y-3'>

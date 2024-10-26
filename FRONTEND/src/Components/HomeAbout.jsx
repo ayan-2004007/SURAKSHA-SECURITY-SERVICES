@@ -1,4 +1,6 @@
-import {React,use} from 'react'
+import React, {useEffect} from 'react'
+import aos from "aos"
+import "aos/dist/aos.css"
 import Surveillance from "../assets/24-hours.png";
 import Reliable_Protection from "../assets/shield.png";
 import Traine_Guards from "../assets/security-guard.png";
@@ -9,12 +11,17 @@ import home_about from "../assets/home_about.png";
 
 
 const HomeAbout = () => {
+    useEffect(() => {
+        aos.init({
+            once: "true",
+        })
+    }, [])
     return (
         <>
-        
+
             {/* Testimonials */}
             <div className=' w-full h-full lg:bg-gradient-to-t from-[rgba(168,139,235,0.5)] via-[#ECECEC] to-[#ECECEC]'>
-                <div className='grid grid-cols-2 md:grid-cols-3 px-5 xl:px-1 lg:flex justify-center mx-auto gap-5 xl:gap-9 mt-24 lg:mt-32 text-white max-w-[400px] md:max-w-[600px] lg:max-w-[1150px] xl:max-w-[1270px] 2xl:max-w-[1365px] '>
+                <div className='grid grid-cols-2 md:grid-cols-3 px-5 xl:px-1 lg:flex justify-center mx-auto gap-5 xl:gap-9 mt-24 lg:mt-32 text-white max-w-[400px] md:max-w-[600px] lg:max-w-[1150px] xl:max-w-[1270px] 2xl:max-w-[1365px]' data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine" data-aos-duration="500">
                     <div className='lg:w-[190px] lg:h-[195px] xl:w-[210px] xl:h-[215px] bg-[#3E187A] rounded-md flex flex-col items-center justify-between py-2 lg:py-3 px-2 space-y-2 lg:space-y-0'>
                         <img src={Surveillance} alt="" className='xl:w-20 xl:h-20 lg:w-16 lg:h-16 w-12 h-12' />
                         <p className='font-["Montserrat"] xl:text-lg font-bold text-center'>24/7<br /><span className='text-[11px] lg:text-sm xl:text-base'>SURVEILLANCE</span></p>
@@ -56,7 +63,7 @@ const HomeAbout = () => {
                         <h1 className='font-["otomanopee-one"] text-[28px] text-[#131313]'>SURAKSHA SECURITY</h1>
                     </div>
                     <img src={home_about} alt="" className='lg:w-[520px] xl:w-[650px]' />
-                    <div className='lg:space-y-14'>
+                    <div className='lg:space-y-14' data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <div className='hidden lg:block'>
                             <h1 className='font-["otomanopee-one"] lg:text-4xl xl:text-5xl text-[#494949] pb-6'>WELCOME TO</h1>
                             <h1 className='font-["otomanopee-one"] lg:text-4xl xl:text-5xl text-[#131313]'>SURAKSHA SECURITY</h1>
