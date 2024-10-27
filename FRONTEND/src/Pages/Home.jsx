@@ -7,10 +7,12 @@ import HomeCertificate from "../Components/HomeCertificate"
 import CustomerReview from "../Components/CustomerReview"
 import TrustedClients from "../Components/TrustedClients"
 import Footer from "../Components/Footer"
+import ScrollToTop from '../Components/ScrollToTop'
 const Home=()=>{
     return(
         <>
             <body className="bg-[#ECECEC]">
+                <ScrollToTop/>
                 <Navbar/>
                 <HomeBanner />
                 <HomeAbout/>
