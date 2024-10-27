@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { useNavigate } from 'react-router-dom';
 import bg from "../assets/about_bg.png"
 import img1 from "../assets/about1.png"
 import img2 from "../assets/about2.png"
@@ -6,7 +7,7 @@ import img3 from "../assets/about3.png"
 
 
 const AboutBanner = () => {
-
+    const navigate=useNavigate()
     const banners = [
         {
             title: "SECURING YOUR WORLD",
@@ -81,8 +82,8 @@ const AboutBanner = () => {
                 </div>
                 <p className={`font-["Philosopher"] text-[#3F3F3F] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[16px] text-[14px] ${fade ? 'opacity-0' : 'opacity-100'}`}>{description}</p>
                 <div className='flex flex-row gap-3 md:gap-6 lg:mx-0 md:mx-auto'>
-                    <button className={`rounded-lg font-["Montserrat"] font-bold text-xs px-5 py-4 sm:text-[13px] md:text-base md:px-7 md:py-5 lg:text-[13px] lg:px-5 lg:py-4 xl:text-base xl:px-9 bg-gradient-to-r from-[#AD1DEB] to-[#6E72FC] text-white ${fade ? 'opacity-0' : 'opacity-100'} transition-transform transform hover:scale-110 duration-150 ease-in`}>JOIN US NOW</button>
-                    <button className={`font-["Montserrat"] text-xs font-bold px-5 py-4 sm:text-[13px] md:text-base md:px-7 md:py-5 lg:text-[13px] lg:px-5 lg:py-4 xl:text-base xl:px-9 border-2 border-[#AD1DEB] ${fade ? 'opacity-0' : 'opacity-100'} transition-all duration-150 ease-in hover:bg-[#131313] hover:text-white`}>CONTACT US</button>
+                    <button onClick={()=>{navigate("/career#joinUs")}} className={`rounded-lg font-["Montserrat"] font-bold text-xs px-5 py-4 sm:text-[13px] md:text-base md:px-7 md:py-5 lg:text-[13px] lg:px-5 lg:py-4 xl:text-base xl:px-9 bg-gradient-to-r from-[#AD1DEB] to-[#6E72FC] text-white ${fade ? 'opacity-0' : 'opacity-100'} transition-transform transform hover:scale-110 duration-150 ease-in`}>JOIN US NOW</button>
+                    <button onClick={()=>{navigate("/contact")}} className={`font-["Montserrat"] text-xs font-bold px-5 py-4 sm:text-[13px] md:text-base md:px-7 md:py-5 lg:text-[13px] lg:px-5 lg:py-4 xl:text-base xl:px-9 border-2 border-[#AD1DEB] ${fade ? 'opacity-0' : 'opacity-100'} transition-all duration-150 ease-in hover:bg-[#131313] hover:text-white`}>CONTACT US</button>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {useNavigate} from "react-router-dom"
 import logo from '../assets/logo-white.png'
 import facebook from '../assets/facebook-icon.png'
 import instagram from '../assets/instagram-icon.png'
@@ -10,6 +11,7 @@ import mail from '../assets/mail.png'
 
 
 const Footer = () => {
+    const navigate=useNavigate()
     return (
         <>
             <div className='xl:flex flex-col mt-20 bg-gradient-to-t xl:bg-gradient-to-r from-[#3E187A] to-[#994ECC] text-white px-1 md:px-3 xl:px-0 pt-6 xl:pt-8 pb-5'>
@@ -39,50 +41,50 @@ const Footer = () => {
                     <div className='pt-10 space-y-5 hidden xl:block'>
                         <h1 className='font-["Red_Hat_Display"] text-xl'>QUICK LINKS</h1>
                         <div className='font-["Philosopher"] space-y-2 text-[15px]'>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Home</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>About Us</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Services</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Contact Us</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career Form</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Brochure</p>
+                            <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Home</p>
+                            <p onClick={()=>navigate("/about")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>About Us</p>
+                            <p onClick={()=>navigate("/services")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Services</p>
+                            <p onClick={()=>navigate("/career")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career</p>
+                            <p onClick={()=>navigate("/contact")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Contact Us</p>
+                            <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career Form</p>
+                            <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Brochure</p>
                         </div>
                     </div>
                     <div className='pt-10 space-y-5 hidden xl:block'>
                         <h1 className='font-["Red_Hat_Display"] text-xl'>SERVICES</h1>
                         <div className='font-["Philosopher"] space-y-2 text-[15px]'>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Guards</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Lady Security Guards</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Bouncers and Bodyguards</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Gun Men</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Revolver Men</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Supervisors</p>
-                            <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Officers</p>
+                            <p onClick={()=>navigate("/services#securityGuards")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Guards</p>
+                            <p onClick={()=>navigate("/services#ladySecurity")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Lady Security Guards</p>
+                            <p onClick={()=>navigate("/services#bouncers")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Bouncers and Bodyguards</p>
+                            <p onClick={()=>navigate("/services#gunmen")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Gun Men</p>
+                            <p onClick={()=>navigate("/services#gunmen")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Revolver Men</p>
+                            <p onClick={()=>navigate("/services#securityOfficers")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Supervisors</p>
+                            <p onClick={()=>navigate("/services#securityOfficers")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Officers</p>
                         </div>
                     </div>
                     <div className='flex justify-between xl:hidden'>
                         <div className='pt-[70px] space-y-5'>
                             <h1 className='font-["Red_Hat_Display"] text-xl'>QUICK LINKS</h1>
                             <div className='font-["Philosopher"] space-y-2 text-sm md:text-[15px]'>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Home</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>About Us</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Services</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Contact Us</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career Form</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Brochure</p>
+                                <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Home</p>
+                                <p onClick={()=>navigate("/about")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>About Us</p>
+                                <p onClick={()=>navigate("/services")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Services</p>
+                                <p onClick={()=>navigate("/career")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career</p>
+                                <p onClick={()=>navigate("/contact")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Contact Us</p>
+                                <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Career Form</p>
+                                <p onClick={()=>navigate("/")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Brochure</p>
                             </div>
                         </div>
                         <div className='pt-[70px] space-y-5'>
                             <h1 className='font-["Red_Hat_Display"] text-xl'>SERVICES</h1>
                             <div className='font-["Philosopher"] space-y-2 text-sm md:text-[15px]'>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Guards</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Lady Security Guards</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Bouncers and Bodyguards</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Gun Men</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Revolver Men</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Supervisors</p>
-                                <p className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Officers</p>
+                                <p onClick={()=>navigate("/services#securityGuards")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Guards</p>
+                                <p onClick={()=>navigate("/services#ladySecurity")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Lady Security Guards</p>
+                                <p onClick={()=>navigate("/services#bouncers")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Bouncers and Bodyguards</p>
+                                <p onClick={()=>navigate("/services#gunmen")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Gun Men</p>
+                                <p onClick={()=>navigate("/services#gunmen")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Revolver Men</p>
+                                <p onClick={()=>navigate("/services#securitySupervisors")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Supervisors</p>
+                                <p onClick={()=>navigate("/services#securityOfficers")} className='hover:translate-x-3 hover:text-black cursor-pointer transition-all duration-200 ease-in-out'>Security Officers</p>
                             </div>
                         </div>
                     </div>
