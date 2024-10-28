@@ -1,50 +1,47 @@
 import react from "react";
-import c1 from "../assets/c1.jpg"
-import c2 from "../assets/c2.jpg"
-import c3 from "../assets/c3.jpg"
+import certificate from "../assets/certificate.png"
 const HomeCertificate = () => {
     return (
         <>
-            <div className="w-full flex flex-col mt-[125px] gap-12 xl:gap-20 px-5 items-center bg-gradient-to-b from-[#ECECEC] via-[#B099E4]/50 to-[#ECECEC]">
-                <h1 className="text-[32px] text-[#131313] font-['otomanopee-one'] text-center md:text-[44px] xl:text-[56px]">OUR CERTIFICATES AND AWARDS</h1>
-                <div className="flex flex-col gap-10 lg:flex-row lg:gap-8 xl:gap-14">
-                    <div className="w-full mx-auto flex flex-row items-center justify-center gap-4 flex-wrap md:gap-8">
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c1})` }}></div>
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c2})` }}></div>
-                    </div>
-
-                    <div className="px-5 flex flex-col items-center justify-center">
-                        <ul className="list-disc list-outside space-y-6">
-                            <li>
-                                <div className="flex flex-col gap-1">
-                                    <h1 className="text-[22px] font-['Red_Hat_Display'] md:text-[24px]">FIRST CERTIFICATE NAME</h1>
-                                    <p className="text-[18px] font-['Philosopher'] md:text-[20px]">Provided By : Organization name</p>
-                                    <p className="text-sm font-['Philosopher'] md:text-[15px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque quae veniam facere natus! Tempora commodi adipisci aspernatur accusamus eius!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum atque facilis eos consectetur iure repellat, facere enim illum </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex flex-col gap-1">
-                                    <h1 className="text-[22px] font-['Red_Hat_Display'] md:text-[24px]">FIRST CERTIFICATE NAME</h1>
-                                    <p className="text-[18px] font-['Philosopher'] md:text-[20px]">Provided By : Organization name</p>
-                                    <p className="text-sm font-['Philosopher'] md:text-[15px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque quae veniam facere natus! Tempora commodi adipisci aspernatur accusamus eius!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum atque facilis eos consectetur iure repellat, facere enim </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex flex-col gap-1">
-                                    <h1 className="text-[22px] font-['Red_Hat_Display'] md:text-[24px]">FIRST CERTIFICATE NAME</h1>
-                                    <p className="text-[18px] font-['Philosopher'] md:text-[20px]">Provided By : Organization name</p>
-                                    <p className="text-sm font-['Philosopher'] md:text-[15px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio cumque quae veniam facere natus! Tempora commodi adipisci aspernatur accusamus eius!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum atque facilis eos consectetur iure repellat, facere enim?</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="w-full mx-auto flex flex-row items-center justify-center gap-4 flex-wrap md:gap-8">
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c2})` }}></div>
-                        <div className="w-[150px] h-[150px] bg-cover bg-center rounded-[5px] sm:w-[250px] md:w-[280px] md:h-[220px] xl:h-[278px] xl:w-[400px] xl:rounded-[15px] xl:shadow-2xl 2xl:h-[378px] 2xl:w-[500px]" style={{ backgroundImage: `url(${c3})` }}></div>
+        <div className="w-ful bg-[#131313] flex items-center mt-[84px]">
+        <div className="mx-auto flex flex-col items-center gap-12 py-10 md:py-16 xl:gap-20  2xl:flex-row">
+                <img src={certificate} alt="" className="sm:max-w-[600px] lg:max-w-[700px] xl:max-w-[750px]"/>
+                <div className="flex flex-col items-center gap-[74px] md:gap-[110px] 2xl:items-start 2xl:gap-[54px]">
+                    <h1 className="text-white text-[32px] font-['otomanopee-one'] md:text-[44px] lg:text-[48px] xl:text-[56px]">OUR ACHIEVEMENTS</h1>
+                    <div className="flex flex-col px-5 gap-14 md:grid md:grid-cols-2 md:grid-rows-2 md:px-8 xl:grid-cols-4 xl:grid-rows-1 2xl:grid-cols-2 2xl:grid-rows-2 2xl:px-0">
+                        <div className="flex flex-col items-center gap-4 xl:items-start">
+                            <div className="bg-gradient-to-r from-[#CC2B5E] to-[#753A88] px-12 py-4 rounded-[34px]">
+                                <h1 className="text-white font-[20px] font-['otomanopee-one']">CERTIFICATE NAME</h1>
+                            </div>
+                            <p className="text-white text-[18px] font-['Red_Hat_Display'] font-bold">Organization Name</p>
+                            <p className="text-[14px] font-['Red_Hat_Display'] text-[#B1B1B1] text-center sm:max-w-[540px] lg:text-[15px] lg:font-light lg:max-w-[400px] xl:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni totam ut aliquid repellendus sequi natus quos cupiditate possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt fugit vero molestias ipsam facere.ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt fugit vero molestias ipsam </p>
+                        </div>
+                        <div className="flex flex-col items-center gap-4 xl:items-start">
+                            <div className="bg-gradient-to-r from-[#CC2B5E] to-[#753A88] px-12 py-4 rounded-[34px]">
+                                <h1 className="text-white font-[20px] font-['otomanopee-one']">CERTIFICATE NAME</h1>
+                            </div>
+                            <p className="text-white text-[18px] font-['Red_Hat_Display'] font-bold">Organization Name</p>
+                            <p className="text-[14px] font-['Red_Hat_Display'] text-[#B1B1B1] text-center sm:max-w-[540px] lg:text-[15px] lg:font-light lg:max-w-[400px] xl:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni totam ut aliquid repellendus sequi natus quos cupiditate possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt fugit vero molestias ipsam facere.</p>
+                        </div>
+                        <div className="flex flex-col items-center gap-4 xl:items-start">
+                            <div className="bg-gradient-to-r from-[#CC2B5E] to-[#753A88] px-12 py-4 rounded-[34px]">
+                                <h1 className="text-white font-[20px] font-['otomanopee-one']">CERTIFICATE NAME</h1>
+                            </div>
+                            <p className="text-white text-[18px] font-['Red_Hat_Display'] font-bold">Organization Name</p>
+                            <p className="text-[14px] font-['Red_Hat_Display'] text-[#B1B1B1] text-center sm:max-w-[540px] lg:text-[15px] lg:font-light lg:max-w-[400px] xl:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni totam ut aliquid repellendus sequi natus quos cupiditate possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt fugit vero molestias ipsam facere.ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt </p>
+                        </div>
+                        <div className="flex flex-col items-center gap-4 xl:items-start">
+                            <div className="bg-gradient-to-r from-[#CC2B5E] to-[#753A88] px-12 py-4 rounded-[34px]">
+                                <h1 className="text-white font-[20px] font-['otomanopee-one']">CERTIFICATE NAME</h1>
+                            </div>
+                            <p className="text-white text-[18px] font-['Red_Hat_Display'] font-bold">Organization Name</p>
+                            <p className="text-[14px] font-['Red_Hat_Display'] text-[#B1B1B1] text-center sm:max-w-[540px] lg:text-[15px] lg:font-light lg:max-w-[400px] xl:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni totam ut aliquid repellendus sequi natus quos cupiditate possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident deserunt accusantium? Quod porro incidunt fugit vero molestias ipsam facere.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+            
         </>
     )
 }

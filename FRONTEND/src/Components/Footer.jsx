@@ -106,7 +106,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='border-[#6C6C6C] h-[1px] w-full max-w-[600px] xl:max-w-[1350px] mx-auto my-5 max-[425px]:w-[95%]' />
+                <hr className='border-[#9b9b9b] h-[1px] w-full max-w-[600px] xl:max-w-[1350px] mx-auto my-5 max-[425px]:w-[95%]' />
                 <p className='font-["Red_Hat_Display"] text-center text-[13px] xl:text-[15px]'>DESIGNED AND DEVELOPED BY : AYAN | SHIVANSHU</p>
             </div>
         </>
