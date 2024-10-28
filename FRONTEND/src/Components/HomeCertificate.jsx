@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import certificate from "../assets/certificate.png"
 const HomeCertificate = () => {
     return (
