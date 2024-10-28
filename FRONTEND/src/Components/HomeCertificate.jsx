@@ -8,7 +8,7 @@ const HomeCertificate = () => {
                 <img src={certificate} alt="" className="sm:max-w-[600px] lg:max-w-[700px] xl:max-w-[750px]"/>
                 <div className="flex flex-col items-center gap-[74px] md:gap-[110px] 2xl:items-start 2xl:gap-[54px]">
                     <h1 className="text-white text-[32px] font-['otomanopee-one'] md:text-[44px] lg:text-[48px] xl:text-[56px]">OUR ACHIEVEMENTS</h1>
-                    <div className="flex flex-col px-5 gap-14 md:grid md:grid-cols-2 md:grid-rows-2 md:px-8 xl:grid-cols-4 xl:grid-rows-1 2xl:grid-cols-2 2xl:grid-rows-2 2xl:px-0">
+                    <div className="flex flex-col px-5 gap-14 md:grid md:grid-cols-2  md:px-8 xl:grid-cols-4 2xl:grid-cols-2  2xl:px-0">
                         <div className="flex flex-col items-center gap-4 xl:items-start">
                             <div className="bg-gradient-to-r from-[#CC2B5E] to-[#753A88] px-12 py-4 rounded-[34px]">
                                 <h1 className="text-white font-[20px] font-['otomanopee-one']">CERTIFICATE NAME</h1>
