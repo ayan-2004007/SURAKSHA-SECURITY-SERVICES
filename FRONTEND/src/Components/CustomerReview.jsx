@@ -57,8 +57,8 @@ const CustomerReview = () => {
 
     return (
         <>
-            <div className='flex flex-col gap-[70px] lg:gap-[120px] xl:gap-[136px] overflow-hidden'>
-                <h1 className='mt-[120px] md:mt-[80px] xl:mt-[192px] mb-14 lg:mb-16 text-[#131313] font-["otomanopee-one"] text-center text-[32px] md:text-[44px] xl:text-[56px]'>WHAT PEOPLE SAY ABOUT US</h1>
+            <div className='flex flex-col gap-[70px] lg:gap-[120px] xl:gap-[116px] overflow-hidden'>
+                <h1 className='mt-[120px] md:mt-[80px] xl:mt-[192px] mb-14 lg:mb-10  text-[#131313] font-["otomanopee-one"] text-center text-[32px] md:text-[44px] xl:text-[56px]'>WHAT PEOPLE SAY ABOUT US</h1>
                 <Slider {...settings}>
                     {reviews.map((review, index) => (
                         <div key={index} className='w-full flex items-center'>
@@ -69,7 +69,7 @@ const CustomerReview = () => {
                                             key={idx}
                                             src={review.avatar}
                                             alt={review.name}
-                                            className={`h-[40px] w-[40px] lg:h-[60px] lg:w-[60px] rounded-full object-cover ${idx === currentSlide ? 'h-[80px] w-[80px] lg:h-[100px] lg:w-[100px]' : ''}`}
+                                            className={`h-[40px] w-[40px] lg:h-[70px] lg:w-[70px] rounded-full object-cover ${idx === currentSlide ? 'h-[80px] w-[80px] lg:h-[100px] lg:w-[100px]' : ''}`}
                                         />
                                     ))}
                                 </div>

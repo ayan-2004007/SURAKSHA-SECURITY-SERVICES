@@ -21,7 +21,7 @@ const ContactBanner = () => {
                     <div className='text-center space-y-3'>
                         <p className='font-["otomanopee-one"] text-[22px] md:text-xl lg:text-[22px]'>CONTACT US ON</p>
                         <p className='font-["Red_Hat_Display"] text-sm md:text-xs lg:text-[13px] leading-4'>With cutting-edge technology and highly trained professionals, we provide proactive security solutions tailored to your needs, ensuring you stay protected around the clock.</p>
-                        <div className='flex justify-between xl:px-5 text-lg md:text-sm lg:text-lg font-medium'>
+                        <div className='flex flex-col lg:flex-row justify-between xl:px-5 text-lg md:text-sm lg:text-lg font-medium'>
                             <p>+91 74395 37213</p>
                             <p>+91 94748 12394</p>
                         </div>
